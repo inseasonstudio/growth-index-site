@@ -429,3 +429,6 @@ footer .fine { font-size: 13px; color: var(--ink-faint); }
 .notfound a:hover { border-color: var(--accent); }
 .notfound b { display: block; color: var(--accent); margin-bottom: .25rem; }
 .notfound span { display: block; color: var(--ink-soft); font-size: .92rem; line-height: 1.45; }
+
+/* Services with no third-party rating at all — distinct from a low rating. */
+.norating { color: var(--ink-faint); font-style: italic; font-size: .9rem; }
