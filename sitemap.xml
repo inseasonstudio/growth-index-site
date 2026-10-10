@@ -91,6 +91,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://virallizedreviews.com/vs/upgrow/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://virallizedreviews.com/vs/plixi/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://virallizedreviews.com/vs/upleap/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -295,12 +307,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://virallizedreviews.com/services/path-social/</loc>
-    <lastmod>2026-10-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://virallizedreviews.com/services/flock-social/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
@@ -344,6 +350,24 @@
   </url>
   <url>
     <loc>https://virallizedreviews.com/services/ampfluence/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://virallizedreviews.com/services/plixi/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://virallizedreviews.com/services/upgrow/</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://virallizedreviews.com/services/path-social/</loc>
     <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
