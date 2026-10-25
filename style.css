@@ -486,3 +486,26 @@ footer nav.guides b { color: var(--ink); font-weight: 700; flex-basis: 100%; }
   background: var(--card);
 }
 .toc ol { margin: 0; padding-left: 20px; display: grid; gap: 4px; font-size: 15px; }
+
+/* ---------- stat tiles and table extras (Trustpilot removals page) ---------- */
+
+.stats { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 24px 0 30px; }
+.stat {
+  border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 14px 16px 15px; background: var(--card);
+}
+.stat b {
+  display: block; font-size: 34px; font-weight: 800; line-height: 1.1;
+  letter-spacing: -.02em; font-variant-numeric: tabular-nums; color: var(--ink);
+}
+.stat span { display: block; margin-top: 5px; font-size: 14.5px; line-height: 1.4; color: var(--ink-soft); }
+.cmp .was { display: block; font-size: 13px; line-height: 1.35; font-weight: 400; color: var(--ink-faint); }
+.cmp tr.total td { font-weight: 700; background: var(--bg-warm); }
+@media (max-width: 560px) {
+  .stat { padding: 12px 13px 13px; }
+  .stat b { font-size: 29px; }
+  /* In-between reads drop on phones so before, after and the change fit on screen; the CSV has them all. */
+  .cmp .opt { display: none; }
+  .cmp.tight th, .cmp.tight td { padding: 10px 9px; }
+  .cmp.tight th:first-child, .cmp.tight td:first-child { padding-left: 12px; }
+}
