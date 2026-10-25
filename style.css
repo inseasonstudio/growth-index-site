@@ -435,3 +435,54 @@ footer nav.guides b { color: var(--ink); font-weight: 700; flex-basis: 100%; }
 
 /* Services with no third-party rating at all — distinct from a low rating. */
 .norating { color: var(--ink-faint); font-style: italic; font-size: .9rem; }
+
+/* ---------- disclosure line (every page) ---------- */
+
+.disclose { background: var(--bg-warm); border-bottom: 1px solid var(--line); }
+.disclose p {
+  margin: 0; padding: 9px 0; font-size: 13.5px; line-height: 1.5; color: var(--ink-soft);
+}
+.disclose b { color: var(--ink); }
+.disclose a { white-space: nowrap; }
+
+/* ---------- measured growth figures ---------- */
+
+.measured {
+  display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 16px 0 18px;
+}
+.mfig {
+  background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  padding: 16px 16px 14px; box-shadow: var(--shadow);
+}
+.mfig b {
+  display: block; font-size: 30px; font-weight: 800; line-height: 1.1; letter-spacing: -.02em;
+  color: var(--accent); font-variant-numeric: tabular-nums;
+}
+.mfig span { display: block; margin-top: 6px; font-size: 14px; line-height: 1.4; color: var(--ink-soft); }
+
+@media (max-width: 560px) {
+  .measured { grid-template-columns: 1fr; gap: 9px; }
+  .mfig { display: flex; align-items: baseline; gap: 12px; padding: 12px 14px; }
+  .mfig b { flex: 0 0 auto; font-size: 24px; }
+  .mfig span { margin-top: 0; }
+}
+
+/* ---------- sources checked (pages citing primary sources) ---------- */
+
+.cited {
+  margin: 36px 0 0; padding: 18px 20px; border: 1px solid var(--line);
+  border-radius: var(--radius); background: var(--bg-warm);
+}
+.cited h2 { margin: 0 0 6px; font-size: 18px; }
+.cited p { margin: 0 0 10px; font-size: 14px; color: var(--ink-soft); }
+.cited ol { margin: 0; padding-left: 20px; display: grid; gap: 7px; font-size: 14.5px; }
+.cited li { color: var(--ink-soft); overflow-wrap: anywhere; }
+.cited li b { color: var(--ink); }
+
+/* ---------- on-this-page list ---------- */
+
+.toc {
+  border: 1px solid var(--line); border-radius: 12px; padding: 14px 18px; margin: 0 0 26px;
+  background: var(--card);
+}
+.toc ol { margin: 0; padding-left: 20px; display: grid; gap: 4px; font-size: 15px; }
